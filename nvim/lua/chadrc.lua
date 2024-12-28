@@ -5,12 +5,16 @@
 local M = {}
 
 M.base46 = {
-	theme = "gruvbox",
+	theme = "everforest",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+}
+
+M.term = {
+  winopts = { winfixbuf = true },
 }
 
 

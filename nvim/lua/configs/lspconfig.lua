@@ -16,6 +16,13 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- typescript
+lspconfig.ts_ls.setup {
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+}
+
 -- configuring single server, example: typescript
 -- lspconfig.tsserver.setup {
 --   on_attach = nvlsp.on_attach,
